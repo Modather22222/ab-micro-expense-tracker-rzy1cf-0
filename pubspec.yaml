@@ -1,0 +1,19 @@
+name: micro_expense_tracker
+description: A sleek offline expense tracker with a fl_chart spending dashboard, quick-add entry with categories, and a filterable expense history list.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
